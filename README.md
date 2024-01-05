@@ -1,4 +1,5 @@
-![pexels-rafael-valera-4147695](https://github.com/bandhan-majumder/Basic_photo_editor/assets/133476557/59840790-82f9-488a-ad03-535b317e261b)
+![image](https://github.com/bandhan-majumder/Basic_photo_editor/assets/133476557/f044df87-2728-45b7-947f-f76209db891e)
+
 
 # Basic Photo Editor
 
