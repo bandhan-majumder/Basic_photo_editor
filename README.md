@@ -6,13 +6,12 @@
 Welcome to Basic Photo Editor, your simple yet powerful image editing tool using Python and OpenCV.
 
 ## Features
-
-- Crop: Select and crop a specific region of your image.
+- Greyscale: Convert your image to greyscale for a classic touch.
 - Flip: Flip your image horizontally or vertically.
 - Resize: Adjust the dimensions of your image as per your requirement.
-- Greyscale: Convert your image to greyscale for a classic touch.
-
-crop feature is available now, others will be available soon..
+- Crop: Select and crop a specific region of your image.
+  
+**Changes you make will be saved in your desired location**
 
 ## Getting Started
 
