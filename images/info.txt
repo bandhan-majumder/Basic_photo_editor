@@ -1,0 +1,15 @@
+there are 3 types of basic image..
+1. black and white ( 0 and 1)
+2. greyscale (between 0 and 255)
+3. colored image ( red, green, blue channel)
+
+# difference between colored image and grayscale image
+    Colored (RGB) Image:
+        In a colored image, each pixel is represented by three color channels: Red (R), Green (G), and Blue (B).
+        Each channel has intensity values ranging from 0 to 255, indicating the amount of that particular color. For example, (255, 0, 0) represents pure red, (0, 255, 0) represents pure green, and (0, 0, 255) represents pure blue.
+        The combination of these three color channels at each pixel produces a wide range of colors, allowing for the representation of a spectrum of hues.
+
+    Grayscale Image:
+        In a grayscale image, each pixel is represented by a single intensity value, typically ranging from 0 to 255.
+        The intensity value represents the brightness or luminance of the pixel. A higher intensity value corresponds to a brighter pixel, while a lower intensity value corresponds to a darker pixel.
+        Grayscale images are essentially black and white, with shades of gray in between. They lack the color information present in RGB images.
