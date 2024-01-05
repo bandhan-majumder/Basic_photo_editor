@@ -50,27 +50,31 @@ def flipIMG(image, n):
         flip_both=cv2.flip(image,-1)
         new_image=np.hstack((flip_180,flip_horizonatlly,flip_both))
         showIMG(new_image)
-        saveIMG(new_image,"flippedimage.jpg")
+        saveIMG(new_image,"flipped_image.jpg")
     elif n>2:
-        print("Wrong flipcode. Range should be between -1 to 2 .")
+        print("Wrong flip code. Range should be between -1 to 2 .")
         sys.exit()
     else:
         new_image=cv2.flip(image,n)
         showIMG(new_image)
-        saveIMG(new_image,"flippedimage.jpg")
+        saveIMG(new_image,"flipped_image.jpg")
 
 # saving image in path /home/bandhan/PycharmProjects/OpenCV-python/images .. with user desired name.
 def saveIMG(image, new_name):
-    path=r"/home/bandhan/PycharmProjects/OpenCV-python/images/"
-    cv2.imwrite(f"{path}{new_name}.jpg",image) # path, new-image-name
+    path=destination_path
+    cv2.imwrite(f"{path}/{new_name}.jpg",image) # path, new-image-name
 
 
 
-# main program code
-path=input("Path of your image : ")
+# .......................................main program code.....................................................
+# source path of your image
+source_path=input("Path of your image : ")
 # Load an image
-image1 = cv2.imread(path)
+image1 = cv2.imread(source_path)
 image1=cv2.resize(image1,(733,733)) # resizing the image
+
+# destination path of your image
+destination_path=input("Path of the 'destination folder' (excluding image name. Image names will be generated automatically) : ")
 
 # converting image1 to grey image
 decision=input("Do you want to convert your image into grayscale? y/n : ")
